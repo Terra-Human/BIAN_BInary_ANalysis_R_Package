@@ -263,39 +263,6 @@ If statistical comparisons are performed, report:
 •	significance threshold
 •	effect-size measure where applicable
 
-Repository structure
-The complete BIAN repository should contain the following components:
-BIAN/
-│
-├── README.md
-├── DESCRIPTION
-├── LICENSE
-├── NAMESPACE
-│
-├── R/
-│   ├── binary_matrix.R
-│   ├── amr_analysis.R
-│   ├── mdr_analysis.R
-│   ├── metal_analysis.R
-│   ├── heatmap.R
-│   └── export_functions.R
-│
-├── scripts/
-│   ├── Script_01_AMR_Genes.R
-│   ├── Script_02_MDR_Efflux_Resistance.R
-│   └── Script_03_Metal_Resistance.R
-│
-├── inst/
-│   └── extdata/
-│       └── example_binary_table.csv
-│
-├── tests/
-│   └── testthat/
-│
-└── vignettes/
-    └── BIAN_workflow.Rmd
-The three Script_01, Script_02, and Script_03 files should function as analysis/example entry points, whereas reusable functions should be maintained in the package R/ directory.
-
 Required R packages
 The BIAN workflow may use the following packages depending on the selected analysis:
 install.packages(c(
