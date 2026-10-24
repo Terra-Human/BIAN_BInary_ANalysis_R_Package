@@ -1,6 +1,8 @@
-BIAN: BInary ANalysis R Package
-Binary analysis of antimicrobial resistance (AMR), multidrug resistance (MDR), and metal-resistance-associated determinants in bacterial genomes
-Author: Bhagwan Rekadwad
+Description of the work/Package Name: BInary ANalysis R Package
+Title of the work (in English): BInary ANalysis R Package for AMR, MDR, and Metal-Resistance in Bacteria
+Long Title: BInary ANalysis R Package (BIAN) for analysis of antimicrobial resistance (AMR), multidrug resistance (MDR), and metal-resistance-associated determinants in bacterial genomes
+Language of the Work: English
+Author and Owner: Bhagwan Rekadwad
 Version: 1.0.0
 Repository:
 https://github.com/Terra-Human/binary-analysis-amr-metal-mdr-genes
